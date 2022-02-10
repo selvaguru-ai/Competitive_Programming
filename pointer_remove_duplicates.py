@@ -9,6 +9,6 @@ def remove_duplicates(arr):
             arr[slow] = arr[fast]
     return slow+1
 
-arr = [0,0,1,1,1,2,2,3,4,4,5]
+arr = [0,0,1,1,1,2,2,3,4,4,5 ]
 value = remove_duplicates(arr)
 print (arr[:value])
